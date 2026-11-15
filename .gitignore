@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+
+# Minecraft server jar and run directories used by tools/mc
+.mc/
+
+# Python
+__pycache__/
+
+# IDE and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# jqwik keeps the seeds of failed property tests here
+.jqwik-database
