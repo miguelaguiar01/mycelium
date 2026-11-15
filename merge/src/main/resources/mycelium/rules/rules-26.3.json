@@ -1,0 +1,1158 @@
+{
+ "minecraft": "26.3",
+ "noise": [
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "higher",
+   "properties": [
+    "age"
+   ],
+   "blocks": [
+    "minecraft:beetroots",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    "minecraft:wheat",
+    "minecraft:nether_wart",
+    "minecraft:sweet_berry_bush",
+    "minecraft:cocoa",
+    "minecraft:melon_stem",
+    "minecraft:pumpkin_stem",
+    "minecraft:torchflower_crop",
+    "minecraft:pitcher_crop",
+    "minecraft:chorus_flower",
+    "minecraft:kelp",
+    "minecraft:cave_vines",
+    "minecraft:twisting_vines",
+    "minecraft:weeping_vines",
+    "minecraft:mangrove_propagule"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "higher",
+   "properties": [
+    "stage"
+   ],
+   "blocks": [
+    "minecraft:acacia_sapling",
+    "minecraft:birch_sapling",
+    "minecraft:cherry_sapling",
+    "minecraft:dark_oak_sapling",
+    "minecraft:jungle_sapling",
+    "minecraft:mangrove_propagule",
+    "minecraft:oak_sapling",
+    "minecraft:pale_oak_sapling",
+    "minecraft:poplar_sapling",
+    "minecraft:spruce_sapling"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "higher",
+   "properties": [
+    "hatch"
+   ],
+   "blocks": [
+    "minecraft:sniffer_egg",
+    "minecraft:turtle_egg"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "higher",
+   "properties": [
+    "hydration"
+   ],
+   "blocks": [
+    "minecraft:dried_ghast"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "age"
+   ],
+   "blocks": [
+    "minecraft:cactus",
+    "minecraft:sugar_cane",
+    "minecraft:frosted_ice"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "age",
+    "leaves",
+    "stage"
+   ],
+   "blocks": [
+    "minecraft:bamboo"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "berries"
+   ],
+   "blocks": [
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "moisture"
+   ],
+   "blocks": [
+    "minecraft:farmland"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "honey_level"
+   ],
+   "blocks": [
+    "minecraft:bee_nest",
+    "minecraft:beehive"
+   ]
+  },
+  {
+   "name": "fluid",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "level"
+   ],
+   "blocks": [
+    "minecraft:water",
+    "minecraft:lava"
+   ],
+   "player_values": [
+    "0"
+   ]
+  },
+  {
+   "name": "machine",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "lit"
+   ],
+   "blocks": [
+    "minecraft:furnace",
+    "minecraft:blast_furnace",
+    "minecraft:smoker",
+    "minecraft:campfire",
+    "minecraft:soul_campfire",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore"
+   ]
+  },
+  {
+   "name": "machine",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "has_bottle_0",
+    "has_bottle_1",
+    "has_bottle_2"
+   ],
+   "blocks": [
+    "minecraft:brewing_stand"
+   ]
+  },
+  {
+   "name": "redstone",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "power"
+   ],
+   "blocks": [
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:daylight_detector",
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:light_weighted_pressure_plate",
+    "minecraft:redstone_wire",
+    "minecraft:sculk_sensor",
+    "minecraft:target"
+   ]
+  },
+  {
+   "name": "redstone",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "powered"
+   ],
+   "blocks": [
+    "minecraft:acacia_button",
+    "minecraft:acacia_door",
+    "minecraft:acacia_fence_gate",
+    "minecraft:acacia_pressure_plate",
+    "minecraft:acacia_shelf",
+    "minecraft:acacia_trapdoor",
+    "minecraft:activator_rail",
+    "minecraft:bamboo_button",
+    "minecraft:bamboo_door",
+    "minecraft:bamboo_fence_gate",
+    "minecraft:bamboo_pressure_plate",
+    "minecraft:bamboo_shelf",
+    "minecraft:bamboo_trapdoor",
+    "minecraft:bell",
+    "minecraft:birch_button",
+    "minecraft:birch_door",
+    "minecraft:birch_fence_gate",
+    "minecraft:birch_pressure_plate",
+    "minecraft:birch_shelf",
+    "minecraft:birch_trapdoor",
+    "minecraft:cherry_button",
+    "minecraft:cherry_door",
+    "minecraft:cherry_fence_gate",
+    "minecraft:cherry_pressure_plate",
+    "minecraft:cherry_shelf",
+    "minecraft:cherry_trapdoor",
+    "minecraft:comparator",
+    "minecraft:copper_bulb",
+    "minecraft:copper_door",
+    "minecraft:copper_trapdoor",
+    "minecraft:creeper_head",
+    "minecraft:creeper_wall_head",
+    "minecraft:crimson_button",
+    "minecraft:crimson_door",
+    "minecraft:crimson_fence_gate",
+    "minecraft:crimson_pressure_plate",
+    "minecraft:crimson_shelf",
+    "minecraft:crimson_trapdoor",
+    "minecraft:dark_oak_button",
+    "minecraft:dark_oak_door",
+    "minecraft:dark_oak_fence_gate",
+    "minecraft:dark_oak_pressure_plate",
+    "minecraft:dark_oak_shelf",
+    "minecraft:dark_oak_trapdoor",
+    "minecraft:detector_rail",
+    "minecraft:dragon_head",
+    "minecraft:dragon_wall_head",
+    "minecraft:exposed_copper_bulb",
+    "minecraft:exposed_copper_door",
+    "minecraft:exposed_copper_trapdoor",
+    "minecraft:exposed_lightning_rod",
+    "minecraft:iron_door",
+    "minecraft:iron_trapdoor",
+    "minecraft:jungle_button",
+    "minecraft:jungle_door",
+    "minecraft:jungle_fence_gate",
+    "minecraft:jungle_pressure_plate",
+    "minecraft:jungle_shelf",
+    "minecraft:jungle_trapdoor",
+    "minecraft:lectern",
+    "minecraft:lightning_rod",
+    "minecraft:mangrove_button",
+    "minecraft:mangrove_door",
+    "minecraft:mangrove_fence_gate",
+    "minecraft:mangrove_pressure_plate",
+    "minecraft:mangrove_shelf",
+    "minecraft:mangrove_trapdoor",
+    "minecraft:note_block",
+    "minecraft:oak_button",
+    "minecraft:oak_door",
+    "minecraft:oak_fence_gate",
+    "minecraft:oak_pressure_plate",
+    "minecraft:oak_shelf",
+    "minecraft:oak_trapdoor",
+    "minecraft:observer",
+    "minecraft:oxidized_copper_bulb",
+    "minecraft:oxidized_copper_door",
+    "minecraft:oxidized_copper_trapdoor",
+    "minecraft:oxidized_lightning_rod",
+    "minecraft:pale_oak_button",
+    "minecraft:pale_oak_door",
+    "minecraft:pale_oak_fence_gate",
+    "minecraft:pale_oak_pressure_plate",
+    "minecraft:pale_oak_shelf",
+    "minecraft:pale_oak_trapdoor",
+    "minecraft:piglin_head",
+    "minecraft:piglin_wall_head",
+    "minecraft:player_head",
+    "minecraft:player_wall_head",
+    "minecraft:polished_blackstone_button",
+    "minecraft:polished_blackstone_pressure_plate",
+    "minecraft:poplar_button",
+    "minecraft:poplar_door",
+    "minecraft:poplar_fence_gate",
+    "minecraft:poplar_pressure_plate",
+    "minecraft:poplar_shelf",
+    "minecraft:poplar_trapdoor",
+    "minecraft:powered_rail",
+    "minecraft:repeater",
+    "minecraft:skeleton_skull",
+    "minecraft:skeleton_wall_skull",
+    "minecraft:spruce_button",
+    "minecraft:spruce_door",
+    "minecraft:spruce_fence_gate",
+    "minecraft:spruce_pressure_plate",
+    "minecraft:spruce_shelf",
+    "minecraft:spruce_trapdoor",
+    "minecraft:stone_button",
+    "minecraft:stone_pressure_plate",
+    "minecraft:tripwire",
+    "minecraft:tripwire_hook",
+    "minecraft:warped_button",
+    "minecraft:warped_door",
+    "minecraft:warped_fence_gate",
+    "minecraft:warped_pressure_plate",
+    "minecraft:warped_shelf",
+    "minecraft:warped_trapdoor",
+    "minecraft:waxed_copper_bulb",
+    "minecraft:waxed_copper_door",
+    "minecraft:waxed_copper_trapdoor",
+    "minecraft:waxed_exposed_copper_bulb",
+    "minecraft:waxed_exposed_copper_door",
+    "minecraft:waxed_exposed_copper_trapdoor",
+    "minecraft:waxed_exposed_lightning_rod",
+    "minecraft:waxed_lightning_rod",
+    "minecraft:waxed_oxidized_copper_bulb",
+    "minecraft:waxed_oxidized_copper_door",
+    "minecraft:waxed_oxidized_copper_trapdoor",
+    "minecraft:waxed_oxidized_lightning_rod",
+    "minecraft:waxed_weathered_copper_bulb",
+    "minecraft:waxed_weathered_copper_door",
+    "minecraft:waxed_weathered_copper_trapdoor",
+    "minecraft:waxed_weathered_lightning_rod",
+    "minecraft:weathered_copper_bulb",
+    "minecraft:weathered_copper_door",
+    "minecraft:weathered_copper_trapdoor",
+    "minecraft:weathered_lightning_rod",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:wither_skeleton_wall_skull",
+    "minecraft:zombie_head",
+    "minecraft:zombie_wall_head"
+   ]
+  },
+  {
+   "name": "redstone",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "triggered"
+   ],
+   "blocks": [
+    "minecraft:crafter",
+    "minecraft:dispenser",
+    "minecraft:dropper"
+   ]
+  },
+  {
+   "name": "redstone",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "lit"
+   ],
+   "blocks": [
+    "minecraft:redstone_torch",
+    "minecraft:redstone_wall_torch",
+    "minecraft:redstone_lamp"
+   ]
+  },
+  {
+   "name": "redstone",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "locked"
+   ],
+   "blocks": [
+    "minecraft:repeater"
+   ]
+  },
+  {
+   "name": "redstone",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "enabled"
+   ],
+   "blocks": [
+    "minecraft:hopper"
+   ]
+  },
+  {
+   "name": "redstone",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "north",
+    "east",
+    "south",
+    "west"
+   ],
+   "blocks": [
+    "minecraft:redstone_wire"
+   ]
+  },
+  {
+   "name": "redstone",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "sculk_sensor_phase",
+    "shrieking",
+    "bloom",
+    "crafting"
+   ],
+   "blocks": [
+    "minecraft:sculk_sensor",
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:sculk_shrieker",
+    "minecraft:sculk_catalyst",
+    "minecraft:crafter"
+   ]
+  },
+  {
+   "name": "leaves",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "distance"
+   ],
+   "blocks": [
+    "minecraft:acacia_leaves",
+    "minecraft:azalea_leaves",
+    "minecraft:birch_leaves",
+    "minecraft:cherry_leaves",
+    "minecraft:dark_oak_leaves",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:jungle_leaves",
+    "minecraft:mangrove_leaves",
+    "minecraft:oak_leaves",
+    "minecraft:orange_poplar_leaves",
+    "minecraft:pale_oak_leaves",
+    "minecraft:red_poplar_leaves",
+    "minecraft:spruce_leaves",
+    "minecraft:yellow_poplar_leaves"
+   ]
+  },
+  {
+   "name": "leaves",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "persistent"
+   ],
+   "blocks": [
+    "minecraft:acacia_leaves",
+    "minecraft:azalea_leaves",
+    "minecraft:birch_leaves",
+    "minecraft:cherry_leaves",
+    "minecraft:dark_oak_leaves",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:jungle_leaves",
+    "minecraft:mangrove_leaves",
+    "minecraft:oak_leaves",
+    "minecraft:orange_poplar_leaves",
+    "minecraft:pale_oak_leaves",
+    "minecraft:red_poplar_leaves",
+    "minecraft:spruce_leaves",
+    "minecraft:yellow_poplar_leaves"
+   ],
+   "player_values": [
+    "true"
+   ]
+  },
+  {
+   "name": "leaves",
+   "type": "transient",
+   "result": "empty",
+   "blocks": [
+    "minecraft:acacia_leaves",
+    "minecraft:azalea_leaves",
+    "minecraft:birch_leaves",
+    "minecraft:cherry_leaves",
+    "minecraft:dark_oak_leaves",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:jungle_leaves",
+    "minecraft:mangrove_leaves",
+    "minecraft:oak_leaves",
+    "minecraft:orange_poplar_leaves",
+    "minecraft:pale_oak_leaves",
+    "minecraft:red_poplar_leaves",
+    "minecraft:spruce_leaves",
+    "minecraft:yellow_poplar_leaves"
+   ],
+   "empty": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "thickness"
+   ],
+   "blocks": [
+    "minecraft:pointed_dripstone",
+    "minecraft:sulfur_spike"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "north",
+    "east",
+    "south",
+    "west",
+    "up",
+    "down"
+   ],
+   "blocks": [
+    "minecraft:vine",
+    "minecraft:chorus_plant"
+   ]
+  },
+  {
+   "name": "cauldron",
+   "type": "property",
+   "result": "higher",
+   "properties": [
+    "level"
+   ],
+   "blocks": [
+    "minecraft:water_cauldron",
+    "minecraft:powder_snow_cauldron"
+   ]
+  },
+  {
+   "name": "machine",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "level"
+   ],
+   "blocks": [
+    "minecraft:composter"
+   ]
+  },
+  {
+   "name": "machine",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "tilt"
+   ],
+   "blocks": [
+    "minecraft:big_dripleaf"
+   ]
+  },
+  {
+   "name": "machine",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "vault_state",
+    "trial_spawner_state"
+   ],
+   "blocks": [
+    "minecraft:vault",
+    "minecraft:trial_spawner"
+   ]
+  },
+  {
+   "name": "machine",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "distance",
+    "bottom"
+   ],
+   "blocks": [
+    "minecraft:scaffolding"
+   ]
+  },
+  {
+   "name": "day_night",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "creaking_heart_state"
+   ],
+   "blocks": [
+    "minecraft:creaking_heart"
+   ]
+  },
+  {
+   "name": "snow",
+   "type": "property",
+   "result": "newer",
+   "properties": [
+    "snowy"
+   ],
+   "blocks": [
+    "minecraft:grass_block",
+    "minecraft:mycelium",
+    "minecraft:podzol"
+   ]
+  },
+  {
+   "name": "fire",
+   "type": "transient",
+   "blocks": [
+    "minecraft:fire",
+    "minecraft:soul_fire"
+   ],
+   "empty": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air"
+   ],
+   "consumes": true
+  },
+  {
+   "name": "snow",
+   "type": "transient",
+   "blocks": [
+    "minecraft:snow"
+   ],
+   "empty": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "transient",
+   "blocks": [
+    "minecraft:attached_melon_stem"
+   ],
+   "empty": [
+    "minecraft:melon_stem"
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "transient",
+   "blocks": [
+    "minecraft:attached_pumpkin_stem"
+   ],
+   "empty": [
+    "minecraft:pumpkin_stem"
+   ]
+  },
+  {
+   "name": "day_night",
+   "type": "transient",
+   "blocks": [
+    "minecraft:open_eyeblossom"
+   ],
+   "empty": [
+    "minecraft:closed_eyeblossom"
+   ]
+  },
+  {
+   "name": "day_night",
+   "type": "transient",
+   "blocks": [
+    "minecraft:potted_open_eyeblossom"
+   ],
+   "empty": [
+    "minecraft:potted_closed_eyeblossom"
+   ]
+  },
+  {
+   "name": "spread",
+   "type": "transient",
+   "blocks": [
+    "minecraft:grass_block",
+    "minecraft:mycelium"
+   ],
+   "empty": [
+    "minecraft:dirt"
+   ]
+  },
+  {
+   "name": "spread",
+   "type": "transient",
+   "blocks": [
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium"
+   ],
+   "empty": [
+    "minecraft:netherrack"
+   ]
+  },
+  {
+   "name": "oxidation",
+   "type": "stages",
+   "chains": [
+    [
+     "minecraft:chiseled_copper",
+     "minecraft:exposed_chiseled_copper",
+     "minecraft:weathered_chiseled_copper",
+     "minecraft:oxidized_chiseled_copper"
+    ],
+    [
+     "minecraft:copper_bars",
+     "minecraft:exposed_copper_bars",
+     "minecraft:weathered_copper_bars",
+     "minecraft:oxidized_copper_bars"
+    ],
+    [
+     "minecraft:copper_block",
+     "minecraft:exposed_copper",
+     "minecraft:weathered_copper",
+     "minecraft:oxidized_copper"
+    ],
+    [
+     "minecraft:copper_bulb",
+     "minecraft:exposed_copper_bulb",
+     "minecraft:weathered_copper_bulb",
+     "minecraft:oxidized_copper_bulb"
+    ],
+    [
+     "minecraft:copper_chain",
+     "minecraft:exposed_copper_chain",
+     "minecraft:weathered_copper_chain",
+     "minecraft:oxidized_copper_chain"
+    ],
+    [
+     "minecraft:copper_chest",
+     "minecraft:exposed_copper_chest",
+     "minecraft:weathered_copper_chest",
+     "minecraft:oxidized_copper_chest"
+    ],
+    [
+     "minecraft:copper_door",
+     "minecraft:exposed_copper_door",
+     "minecraft:weathered_copper_door",
+     "minecraft:oxidized_copper_door"
+    ],
+    [
+     "minecraft:copper_golem_statue",
+     "minecraft:exposed_copper_golem_statue",
+     "minecraft:weathered_copper_golem_statue",
+     "minecraft:oxidized_copper_golem_statue"
+    ],
+    [
+     "minecraft:copper_grate",
+     "minecraft:exposed_copper_grate",
+     "minecraft:weathered_copper_grate",
+     "minecraft:oxidized_copper_grate"
+    ],
+    [
+     "minecraft:copper_lantern",
+     "minecraft:exposed_copper_lantern",
+     "minecraft:weathered_copper_lantern",
+     "minecraft:oxidized_copper_lantern"
+    ],
+    [
+     "minecraft:copper_trapdoor",
+     "minecraft:exposed_copper_trapdoor",
+     "minecraft:weathered_copper_trapdoor",
+     "minecraft:oxidized_copper_trapdoor"
+    ],
+    [
+     "minecraft:cut_copper",
+     "minecraft:exposed_cut_copper",
+     "minecraft:weathered_cut_copper",
+     "minecraft:oxidized_cut_copper"
+    ],
+    [
+     "minecraft:cut_copper_slab",
+     "minecraft:exposed_cut_copper_slab",
+     "minecraft:weathered_cut_copper_slab",
+     "minecraft:oxidized_cut_copper_slab"
+    ],
+    [
+     "minecraft:cut_copper_stairs",
+     "minecraft:exposed_cut_copper_stairs",
+     "minecraft:weathered_cut_copper_stairs",
+     "minecraft:oxidized_cut_copper_stairs"
+    ],
+    [
+     "minecraft:lightning_rod",
+     "minecraft:exposed_lightning_rod",
+     "minecraft:weathered_lightning_rod",
+     "minecraft:oxidized_lightning_rod"
+    ]
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "stages",
+   "chains": [
+    [
+     "minecraft:torchflower_crop",
+     "minecraft:torchflower"
+    ]
+   ]
+  },
+  {
+   "name": "cauldron",
+   "type": "stages",
+   "chains": [
+    [
+     "minecraft:cauldron",
+     [
+      "minecraft:water_cauldron",
+      "minecraft:powder_snow_cauldron",
+      "minecraft:lava_cauldron"
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "stages",
+   "from": [
+    "minecraft:air",
+    "minecraft:water"
+   ],
+   "chains": [
+    [
+     "minecraft:small_amethyst_bud",
+     "minecraft:medium_amethyst_bud",
+     "minecraft:large_amethyst_bud",
+     "minecraft:amethyst_cluster"
+    ]
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "stages",
+   "from": [
+    "minecraft:water"
+   ],
+   "chains": [
+    [
+     "minecraft:kelp",
+     "minecraft:kelp_plant"
+    ]
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "stages",
+   "from": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air"
+   ],
+   "chains": [
+    [
+     [
+      "minecraft:acacia_leaves",
+      "minecraft:azalea_leaves",
+      "minecraft:birch_leaves",
+      "minecraft:cherry_leaves",
+      "minecraft:dark_oak_leaves",
+      "minecraft:flowering_azalea_leaves",
+      "minecraft:jungle_leaves",
+      "minecraft:mangrove_leaves",
+      "minecraft:oak_leaves",
+      "minecraft:orange_poplar_leaves",
+      "minecraft:pale_oak_leaves",
+      "minecraft:red_poplar_leaves",
+      "minecraft:spruce_leaves",
+      "minecraft:yellow_poplar_leaves"
+     ],
+     [
+      "minecraft:acacia_log",
+      "minecraft:birch_log",
+      "minecraft:cherry_log",
+      "minecraft:dark_oak_log",
+      "minecraft:jungle_log",
+      "minecraft:mangrove_log",
+      "minecraft:oak_log",
+      "minecraft:pale_oak_log",
+      "minecraft:poplar_log",
+      "minecraft:spruce_log",
+      "minecraft:mangrove_roots"
+     ]
+    ],
+    [
+     "minecraft:cave_vines",
+     "minecraft:cave_vines_plant"
+    ],
+    [
+     "minecraft:twisting_vines",
+     "minecraft:twisting_vines_plant"
+    ],
+    [
+     "minecraft:weeping_vines",
+     "minecraft:weeping_vines_plant"
+    ],
+    [
+     "minecraft:bamboo_sapling",
+     "minecraft:bamboo"
+    ],
+    [
+     "minecraft:chorus_flower",
+     "minecraft:chorus_plant"
+    ],
+    [
+     "minecraft:cactus_flower",
+     "minecraft:cactus"
+    ]
+   ]
+  },
+  {
+   "name": "growth",
+   "type": "newer_only",
+   "blocks": [
+    "minecraft:chorus_plant",
+    "minecraft:chorus_flower"
+   ]
+  }
+ ],
+ "units": [
+  {
+   "name": "door",
+   "type": "vertical_pair",
+   "shared": [
+    "facing",
+    "hinge",
+    "open",
+    "powered"
+   ],
+   "blocks": [
+    "minecraft:acacia_door",
+    "minecraft:bamboo_door",
+    "minecraft:birch_door",
+    "minecraft:cherry_door",
+    "minecraft:copper_door",
+    "minecraft:crimson_door",
+    "minecraft:dark_oak_door",
+    "minecraft:exposed_copper_door",
+    "minecraft:iron_door",
+    "minecraft:jungle_door",
+    "minecraft:mangrove_door",
+    "minecraft:oak_door",
+    "minecraft:oxidized_copper_door",
+    "minecraft:pale_oak_door",
+    "minecraft:poplar_door",
+    "minecraft:spruce_door",
+    "minecraft:warped_door",
+    "minecraft:waxed_copper_door",
+    "minecraft:waxed_exposed_copper_door",
+    "minecraft:waxed_oxidized_copper_door",
+    "minecraft:waxed_weathered_copper_door",
+    "minecraft:weathered_copper_door"
+   ]
+  },
+  {
+   "name": "tall_plant",
+   "type": "vertical_pair",
+   "shared": [],
+   "blocks": [
+    "minecraft:large_fern",
+    "minecraft:lilac",
+    "minecraft:peony",
+    "minecraft:pitcher_plant",
+    "minecraft:rose_bush",
+    "minecraft:small_dripleaf",
+    "minecraft:sunflower",
+    "minecraft:tall_grass",
+    "minecraft:tall_seagrass"
+   ]
+  },
+  {
+   "name": "bed",
+   "type": "bed",
+   "blocks": [
+    "minecraft:black_bed",
+    "minecraft:blue_bed",
+    "minecraft:brown_bed",
+    "minecraft:cyan_bed",
+    "minecraft:gray_bed",
+    "minecraft:green_bed",
+    "minecraft:light_blue_bed",
+    "minecraft:light_gray_bed",
+    "minecraft:lime_bed",
+    "minecraft:magenta_bed",
+    "minecraft:orange_bed",
+    "minecraft:pink_bed",
+    "minecraft:purple_bed",
+    "minecraft:red_bed",
+    "minecraft:straw_bed",
+    "minecraft:white_bed",
+    "minecraft:yellow_bed"
+   ]
+  },
+  {
+   "name": "double_chest",
+   "type": "double_chest",
+   "blocks": [
+    "minecraft:chest"
+   ]
+  },
+  {
+   "name": "double_chest",
+   "type": "double_chest",
+   "blocks": [
+    "minecraft:trapped_chest"
+   ]
+  },
+  {
+   "name": "double_chest",
+   "type": "double_chest",
+   "blocks": [
+    "minecraft:copper_chest",
+    "minecraft:exposed_copper_chest",
+    "minecraft:oxidized_copper_chest",
+    "minecraft:waxed_copper_chest",
+    "minecraft:waxed_exposed_copper_chest",
+    "minecraft:waxed_oxidized_copper_chest",
+    "minecraft:waxed_weathered_copper_chest",
+    "minecraft:weathered_copper_chest"
+   ]
+  },
+  {
+   "name": "piston",
+   "type": "piston",
+   "blocks": [
+    "minecraft:piston",
+    "minecraft:sticky_piston"
+   ],
+   "head": "minecraft:piston_head",
+   "moving": "minecraft:moving_piston"
+  }
+ ],
+ "block_entity_progress": [
+  "lit_time_remaining",
+  "lit_total_time",
+  "cooking_time_spent",
+  "cooking_total_time",
+  "RecipesUsed",
+  "BrewTime",
+  "Fuel",
+  "total_brew_time",
+  "total_fuel",
+  "CookingTimes",
+  "CookingTotalTimes",
+  "TransferCooldown",
+  "crafting_ticks_remaining",
+  "triggered",
+  "last_interacted_slot",
+  "server_data.state_updating_resumes_at",
+  "bees",
+  "flower_pos"
+ ],
+ "entity_item_fields": [
+  "Item",
+  "Items",
+  "Inventory",
+  "equipment",
+  "Offers"
+ ],
+ "stat_timers": [
+  "minecraft:custom/minecraft:time_since_death",
+  "minecraft:custom/minecraft:time_since_rest"
+ ],
+ "entity_player_marks": [
+  "Owner",
+  "CustomName",
+  "leash",
+  "PersistenceRequired"
+ ],
+ "entity_birth_marks": [
+  "PersistenceRequired"
+ ],
+ "entity_becomes": {
+  "minecraft:tadpole": [
+   "minecraft:frog"
+  ],
+  "minecraft:zombie_villager": [
+   "minecraft:villager"
+  ],
+  "minecraft:villager": [
+   "minecraft:zombie_villager",
+   "minecraft:witch"
+  ],
+  "minecraft:zombie": [
+   "minecraft:drowned"
+  ],
+  "minecraft:husk": [
+   "minecraft:zombie"
+  ],
+  "minecraft:skeleton": [
+   "minecraft:stray"
+  ],
+  "minecraft:pig": [
+   "minecraft:zombified_piglin"
+  ],
+  "minecraft:piglin": [
+   "minecraft:zombified_piglin"
+  ],
+  "minecraft:piglin_brute": [
+   "minecraft:zombified_piglin"
+  ],
+  "minecraft:hoglin": [
+   "minecraft:zoglin"
+  ],
+  "minecraft:mooshroom": [
+   "minecraft:cow"
+  ]
+ },
+ "hatches": [
+  {
+   "block": "minecraft:turtle_egg",
+   "into": [
+    "minecraft:turtle"
+   ],
+   "count": 4,
+   "count_property": "eggs"
+  },
+  {
+   "block": "minecraft:sniffer_egg",
+   "into": [
+    "minecraft:sniffer"
+   ],
+   "count": 1
+  },
+  {
+   "block": "minecraft:frogspawn",
+   "into": [
+    "minecraft:tadpole",
+    "minecraft:frog"
+   ],
+   "count": 5
+  },
+  {
+   "block": "minecraft:dried_ghast",
+   "into": [
+    "minecraft:happy_ghast"
+   ],
+   "count": 1
+  }
+ ],
+ "hives": {
+  "entities": [
+   "minecraft:bee"
+  ],
+  "home": "hive_pos",
+  "occupants": "bees",
+  "capacity": 3
+ }
+}

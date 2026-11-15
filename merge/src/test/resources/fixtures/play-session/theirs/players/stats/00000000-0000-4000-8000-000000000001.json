@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:open_barrel": 1,
+      "minecraft:sprint_one_cm": 245,
+      "minecraft:time_since_rest": 5131,
+      "minecraft:walk_one_cm": 596,
+      "minecraft:total_world_time": 5195,
+      "minecraft:leave_game": 2,
+      "minecraft:boat_one_cm": 6074,
+      "minecraft:sneak_time": 2,
+      "minecraft:play_time": 5131,
+      "minecraft:time_since_death": 5131,
+      "minecraft:drop": 5
+    },
+    "minecraft:used": {
+      "minecraft:map": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:bread": 5
+    }
+  },
+  "DataVersion": 5023
+}
